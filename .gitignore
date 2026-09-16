@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables / API keys — never commit these
+.env
+
+# Downloaded dataset cache (large, re-downloadable)
+data_cache/
+
+# OS junk files
+.DS_Store
