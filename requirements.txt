@@ -1,0 +1,26 @@
+# Core libraries for the RAG evidence corruption stress test.
+# Kept minimal on purpose, exactly as the spec requires.
+
+# datasets: downloads HotpotQA from Hugging Face
+datasets
+
+# rank-bm25: simple BM25 lexical retrieval (no embeddings needed)
+rank-bm25
+
+# pandas: store and analyze experiment results as tables/CSV
+pandas
+
+# numpy: basic numeric helpers (means, arrays)
+numpy
+
+# matplotlib: draw the 3 required plots
+matplotlib
+
+# python-dotenv: load the API key from the .env file
+python-dotenv
+
+# google-genai: official Google client for calling the Gemini API
+google-genai
+
+# groq: official client for the Groq API (our backup LLM provider)
+groq
